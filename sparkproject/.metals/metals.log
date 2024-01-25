@@ -1,0 +1,1021 @@
+2024.01.25 17:22:36 INFO  Started: Metals version 1.2.0 in folders '/run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject' for client Visual Studio Code 1.85.1.[0m
+2024.01.25 17:22:39 WARN  Build server is not auto-connectable.[0m
+2024.01.25 17:22:40 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/Hello.scala[0m
+2024.01.25 17:22:52 INFO  no build target found for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/Hello.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.01.25 17:22:57 INFO  time: code lens generation in 16s[0m
+2024.01.25 17:23:55 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/Hello.scala[0m
+2024.01.25 17:23:57 INFO  time: code lens generation in 2.31s[0m
+janv. 25, 2024 5:23:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 19
+janv. 25, 2024 5:24:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 21
+2024.01.25 17:24:09 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/Hello.scala[0m
+2024.01.25 17:24:17 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.01.25 17:24:25 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/test/scala/example/HelloSpec.scala[0m
+2024.01.25 17:25:37 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+janv. 25, 2024 5:26:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2024.01.25 17:28:40 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 17:28:42 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 17:29:44 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:29:46 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:31 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:30:44 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:44 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:44 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:30:45 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:45 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:46 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:46 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:47 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:47 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:30:46 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:47 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:49 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:50 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:50 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:30:50 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:30:50 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 17:33:23 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 17:33:24 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 17:33:25 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: unclosed string literal
+    val n_cum_dose_debut = df.filter("dep = " +"1"+ " and vaccin = " +"1"+ " and jour = " +"2021-01-12").collect()(0)(")
+                                                                                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 17:33:26 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 17:33:26 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: unclosed string literal
+    val n_cum_dose_debut = df.filter("dep = " +"1"+ " and vaccin = " +"1"+ " and jour = " +"2021-01-12").collect()(0)(")
+                                                                                                                      ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 17:33:27 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:37: error: unclosed string literal
+    val n_cum_dose_debut = df.filter("dep = " +"1"+ " and vaccin = " +"1"+ " and jour = " +"2021-01-12").collect()(0)(12")
+                                                                                                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 17:33:29 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 5:46:35 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFOS: Unsupported notification method: $/setTrace
+2024.01.25 17:48:16 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/target/plugins.sbt[0m
+2024.01.25 17:48:17 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/target/plugins.sbt[0m
+2024.01.25 17:48:17 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/target/plugins.sbt[0m
+2024.01.25 17:49:25 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:49:25 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:49:26 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:49:26 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:52:55 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:52:55 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:09 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:09 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:57:10 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:13 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:14 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:57:14 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:14 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:17 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:17 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:18 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:19 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:19 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:57:19 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:57:20 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:58:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:58:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:58:10 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 17:58:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 17:58:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/project/plugins.sbt[0m
+2024.01.25 18:03:41 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:03:57 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:01 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:02 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:02 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:02 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:04 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:05 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:05 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:06 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:07 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:04:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:04:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:01 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:02 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:02 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:06:02 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:02 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:03 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:04 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:04 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:04 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:05 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:05 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:05 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:06:05 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:05 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:41 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:41 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:06:50 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:50 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:06:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:06:53 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:06:55 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt
+scala.meta.tokenizers.TokenizeException: <input>:3: error: unclosed string literal
+ThisBuild / scalaVersion     := "2.13.12
+                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:07:00 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:07:01 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:07:46 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:07:46 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:07:47 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:07:47 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:07:54 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:07:54 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:07:57 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:07:57 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:08:00 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:08:00 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:08:01 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:08:02 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:08:04 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:08:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:08:14 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:09:23 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:09:23 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:09:34 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:09:34 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:09:34 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 18:09:34 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:09:35 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 18:14:41 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:15:01 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:32 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:33 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:34 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:33 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:36 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+  Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:37 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:38 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:38 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:39 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:39 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:40 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:40 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:42 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:42 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:44 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:45 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:45 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+    Spark context available as 'sc' (master = local[*], app id = local-1706200969378).
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:47 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed character literal
+    Spark session available as 'spark'.
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:47 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:48 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed character literal
+    Spark session available as 'spark'.
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:17:49 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:17:58 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:18:03 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:18:18 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:18:24 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:18:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:18:33 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:25:30 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:25:32 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 6:31:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 840
+2024.01.25 18:31:40 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:42 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:46 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:49 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:51 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:55 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:56 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:31:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:33:56 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:05 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:09 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:11 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:12 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:17 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:20 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:30 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:31 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:33 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:34:35 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:12 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:16 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:19 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:31 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:38 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:41 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:44 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:48 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:56 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:35:58 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:36:01 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:36:06 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:36:08 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:36:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:36:11 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:38:05 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:38:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:38:08 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:38:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:38:15 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:19 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:30 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:42:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:43:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:43:08 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:43:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 6:44:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1421
+2024.01.25 18:48:16 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:48:20 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:48:23 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 6:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1480
+2024.01.25 18:48:27 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:48:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:48:34 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:48:36 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:50:09 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed string literal
+    pw.write("coucou"")
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:50:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:50:10 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed string literal
+    pw.write("coucou"")
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 18:50:12 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:58:03 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:58:05 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 18:59:54 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 7:03:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1602
+janv. 25, 2024 7:03:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1603
+2024.01.25 19:03:48 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:03:50 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:03:56 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:03:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:02 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:04 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:19 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:25 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:04:30 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:07:52 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:08:51 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:34 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:39 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:41 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:42 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:45 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:09:48 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:12:57 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 7:13:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1810
+2024.01.25 19:13:40 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+janv. 25, 2024 7:13:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1817
+2024.01.25 19:14:00 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:14:19 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:14:19 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:14:20 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:14:20 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:14:20 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:06 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:07 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 19:15:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:07 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:09 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:10 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 19:15:10 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:10 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:11 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:12 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:12 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 19:15:12 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:12 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:13 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:13 INFO  skipping build import with status 'Dismissed'[0m
+2024.01.25 19:15:13 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+2024.01.25 19:15:13 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+janv. 25, 2024 7:17:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 1875
+2024.01.25 19:17:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:18:06 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:18:08 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:18:26 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:18:57 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:18:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:19:32 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:44 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:46 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:48 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:50 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:56 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:58 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:21:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:02 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 7:22:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2042
+2024.01.25 19:22:18 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:37 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:40 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:43 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:44 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:48 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:49 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:51 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:57 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:22:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:26:24 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:26:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:35:02 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:35:03 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:35:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:35:27 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:36:02 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:54: error: unclosed string literal
+    val outputDir = "
+                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 19:36:03 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:36:03 ERROR Failed to tokenize input for semantic tokens for /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala
+scala.meta.tokenizers.TokenizeException: <input>:54: error: unclosed string literal
+    val outputDir = "
+                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+[0m
+2024.01.25 19:36:05 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:36:11 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:36:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:36:39 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:37:59 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:39 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:42 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:43 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:50 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:53 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:41:58 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:01 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:10 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:13 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:14 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:18 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:42:28 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:46:15 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:47:27 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:47:34 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:47:37 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 7:48:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2545
+2024.01.25 19:48:39 WARN  Could not find semantic tokens for: file:///run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/build.sbt[0m
+janv. 25, 2024 7:50:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2558
+2024.01.25 19:50:27 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:50:35 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:50:38 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:54:03 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:54:07 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:20 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:23 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:26 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:29 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:31 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 7:57:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2696
+2024.01.25 19:57:33 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:39 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 19:57:43 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 20:33:19 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 20:33:26 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 20:35:37 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 20:35:43 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+janv. 25, 2024 8:35:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+AVERTISSEMENT: Unmatched cancel notification for request id 2809
+2024.01.25 20:35:47 WARN  no build target for: /run/media/col/Data/DATA/workspace/dataviz_websem/web_sem_jb2/sparkproject/src/main/scala/example/SparkScript.scala[0m
+2024.01.25 21:04:46 INFO  Shutting down server[0m
+2024.01.25 21:04:46 INFO  shutting down Metals[0m
+2024.01.25 21:04:46 INFO  Exiting server[0m
