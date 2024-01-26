@@ -1,0 +1,59 @@
+error id: file://<WORKSPACE>/sparkproject/src/main/scala/example/SparkScript.scala:[340..346) in Input.VirtualFile("file://<WORKSPACE>/sparkproject/src/main/scala/example/SparkScript.scala", "package example
+
+import org.apache.spark.sql.SparkSession
+import org.apache.spark.sql.types._
+import org.apache.spark.sql.functions._
+import java.io._
+
+def writeToFile(fileName:String, data:String) = {
+  val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))
+  writer.write(data)
+  writer.close()
+}
+
+def 
+
+
+object SparkScript {
+  def main(args: Array[String]): Unit = {
+    val spark = SparkSession.builder.appName("SparkScript").getOrCreate();
+
+    val mySchema = StructType(Array(
+      StructField("dep", IntegerType, true),
+      StructField("vaccin", IntegerType , true),
+      StructField("jour", StringType, true),
+      StructField("n_dose1", IntegerType, true),
+      StructField("n_dose2", IntegerType , true),
+      StructField("n_dose3", IntegerType , true),
+      StructField("n_dose4", IntegerType , true),
+      StructField("n_complet", IntegerType , true),
+      StructField("n_rappel", IntegerType , true),
+      StructField("n_2_rappel", IntegerType , true),
+      StructField("n_rappel_biv", IntegerType , true),
+      StructField("n_3_rappel", IntegerType , true),
+      StructField("n_cum_dose1", IntegerType, true),
+      StructField("n_cum_dose2", IntegerType , true),
+      StructField("n_cum_dose3", IntegerType , true),
+      StructField("n_cum_dose4", IntegerType , true),
+      StructField("n_cum_complet", IntegerType , true),
+      StructField("n_cum_rappel", IntegerType , true),
+      StructField("n_cum_2_rappel", IntegerType , true),
+      StructField("n_cum_rappel_biv", IntegerType , true),
+      StructField("n_cum_3_rappel", IntegerType , true)
+      ));
+
+
+    val df = spark.read.option("header",true).option("delimiter", ";").schema(mySchema).csv("<HOME>/Téléchargements/vacsi-v-dep-2023-07-13-15h51.csv");
+    df.printSchema();
+    df.show();
+
+    spark.stop();
+  }
+}")
+file://<WORKSPACE>/sparkproject/src/main/scala/example/SparkScript.scala
+file://<WORKSPACE>/sparkproject/src/main/scala/example/SparkScript.scala:17: error: expected identifier; obtained object
+object SparkScript {
+^
+#### Short summary: 
+
+expected identifier; obtained object
