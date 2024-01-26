@@ -7,12 +7,6 @@ import java.io._
 
 
 object SparkScript {
-/*   def writeToFile1(fileName:String, data:String) = {
-    val writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(fileName)))
-    writer.write(data)
-    writer.close()
-  } */
-
   def writeToFile(fileName:String, data:String):Unit = {
     var file = new File(fileName)
     var bw = new BufferedWriter(new FileWriter(file))
@@ -43,6 +37,15 @@ object SparkScript {
   def getTotalRappelVaccin(df: org.apache.spark.sql.DataFrame, dep: Int, jour:String):Int = {
     df.filter("dep = "+dep+" and jour = '"+jour+"'").collect().map(x => x(17).asInstanceOf[Int]).reduce((x, y) => x+y)
   }
+
+  def getDiff(df: org.apache.spark.sql.DataFrame, dep: Int, vaccin: Int, jour:String):Int = {
+    df.filter("dep = "+dep+" and vaccin = "+vaccin+" and jour = '"+jour+"'").collect().map(x => x(16).asInstanceOf[Int] - x(17).asInstanceOf[Int]).first
+  }
+
+  def getTotalDiff(df: org.apache.spark.sql.DataFrame, dep: Int, jour:String):Int = {
+    df.filter("dep = "+dep+" and jour = '"+jour+"'").map(x => x(16).asInstanceOf[Int] - x(17).asInstanceOf[Int]).reduce((x, y) => x+y)
+  }
+
 
 
   def main(args: Array[String]): Unit = {
@@ -86,31 +89,81 @@ object SparkScript {
 
 
     /////////////////////////////////////////////////////////////////////////////////
-/*     val percentageDepVaccin1 = departements.map(x => getVaccin(df, x.toInt, 1, debut_periode, fin_periode, 12)/getTotalVaccin(df, x.toInt, fin_periode, 12).toDouble)
+    val percentageDepVaccin1 = departements.map(x => getVaccin(df, x.toInt, 1, debut_periode, fin_periode, 12)/getTotalVaccin(df, x.toInt, fin_periode, 12).toDouble)
     val csv0 = departements.zip(percentageDepVaccin1).map(x => x._1+";"+x._2).mkString("\n")
     writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageVaccin1ByDep.csv", csv0)
 
-    val percentageDepVaccin9 = departements.map(x => getVaccin(df, x.toInt, 9, debut_periode, fin_periode, 12)/getTotalVaccin(df, x.toInt, fin_periode, 12).toDouble)
-    val csv1 = departements.zip(percentageDepVaccin9).map(x => x._1+";"+x._2).mkString("\n")
-    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageVaccin9ByDep.csv", csv1) */
+    val percentageDepVaccin2 = departements.map(x => getVaccin(df, x.toInt, 2, debut_periode, fin_periode, 12)/getTotalVaccin(df, x.toInt, fin_periode, 12).toDouble)
+    val csv1 = departements.zip(percentageDepVaccin2).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageVaccin2ByDep.csv", csv1)
     
     ////////////////////////////////////////////////////////////////////////////
     val percentageSchemaComplet1 = departements.map(dep => getSchemaComplet(df, dep.toInt, 1, debut_periode, fin_periode)/getTotalSchemaComplet(df, dep.toInt, fin_periode).toDouble)
     val csv2 = departements.zip(percentageSchemaComplet1).map(x => x._1+";"+x._2).mkString("\n")
     writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageSchemaComplet1ByDep.csv", csv2)
 
-    val percentageSchemaComplet9 = departements.map(dep => getSchemaComplet(df, dep.toInt, 9, debut_periode, fin_periode)/getTotalSchemaComplet(df, dep.toInt, fin_periode).toDouble)
-    val csv3 = departements.zip(percentageSchemaComplet9).map(x => x._1+";"+x._2).mkString("\n")
-    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageSchemaComplet9ByDep.csv", csv3)
+    val percentageSchemaComplet2 = departements.map(dep => getSchemaComplet(df, dep.toInt, 2, debut_periode, fin_periode)/getTotalSchemaComplet(df, dep.toInt, fin_periode).toDouble)
+    val csv3 = departements.zip(percentageSchemaComplet2).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageSchemaComplet2ByDep.csv", csv3)
     
     ////////////////////////////////////////////////////////////////////////////
     val percentageRappel1 = departements.map(dep => getRappelVaccin(df, dep.toInt, 1, debut_periode, fin_periode)/getTotalRappelVaccin(df, dep.toInt, fin_periode).toDouble)
     val csv4 = departements.zip(percentageRappel1).map(x => x._1+";"+x._2).mkString("\n")
     writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageRappel1ByDep.csv", csv4)
 
-    val percentageRappel9 = departements.map(dep => getRappelVaccin(df, dep.toInt, 9, debut_periode, fin_periode)/getTotalRappelVaccin(df, dep.toInt, fin_periode).toDouble)
-    val csv5 = departements.zip(percentageRappel9).map(x => x._1+";"+x._2).mkString("\n")
-    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageRappel9ByDep.csv", csv5)
+    val percentageRappel2 = departements.map(dep => getRappelVaccin(df, dep.toInt, 2, debut_periode, fin_periode)/getTotalRappelVaccin(df, dep.toInt, fin_periode).toDouble)
+    val csv5 = departements.zip(percentageRappel2).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/percentageRappel2ByDep.csv", csv5)
+
+    ///////////////////////////////////////////////////
+
+    val diff1 = departements.map(dep => 10*getDiff(df, dep.toInt, 1, fin_periode)/(getTotalDiff(df, dep.toInt, fin_periode).toDouble))
+    val csv14 = departements.zip(diff1).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/diff1ByDep.csv", csv14)
+
+    /////////////////////////////////////////////////////////////////////////////////
+    //pourentages de vaccinés par département dans le temps
+    val fin_periode1 = "2021-04-27"
+    val fin_periode2 = "2021-08-27"
+    val fin_periode3 = "2021-12-27"
+    val fin_periode4 = "2022-04-27"
+    val fin_periode5 = "2022-08-27"
+    val fin_periode6 = "2022-12-27"
+    val fin_periode7 = "2023-04-27"
+    val fin_periode8 = "2023-07-10"
+
+    val totVaccinedByDepPeriode1 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode1, 12).toDouble)
+    val csv6 = departements.zip(totVaccinedByDepPeriode1).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode1.csv", csv6)
+
+    val totVaccinedByDepPeriode2 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode2, 12).toDouble)
+    val csv7 = departements.zip(totVaccinedByDepPeriode2).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode2.csv", csv7)
+
+    val totVaccinedByDepPeriode3 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode3, 12).toDouble)
+    val csv8 = departements.zip(totVaccinedByDepPeriode3).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode3.csv", csv8)
+
+    val totVaccinedByDepPeriode4 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode4, 12).toDouble)
+    val csv9 = departements.zip(totVaccinedByDepPeriode4).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode4.csv", csv9)
+
+    val totVaccinedByDepPeriode5 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode5, 12).toDouble)
+    val csv10 = departements.zip(totVaccinedByDepPeriode5).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode5.csv", csv10)
+
+    val totVaccinedByDepPeriode6 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode6, 12).toDouble)
+    val csv11 = departements.zip(totVaccinedByDepPeriode6).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode6.csv", csv11)
+
+    val totVaccinedByDepPeriode7 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode7, 12).toDouble)
+    val csv12 = departements.zip(totVaccinedByDepPeriode7).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode7.csv", csv12)
+
+    val totVaccinedByDepPeriode8 = departements.map(x => getTotalVaccin(df, x.toInt, fin_periode8, 12).toDouble)
+    val csv13 = departements.zip(totVaccinedByDepPeriode8).map(x => x._1+";"+x._2).mkString("\n")
+    writeToFile("/run/media/col/Data/DATA/workspace/dataviz_websem/csvTotPopVaccinedTime/totVaccinedByDepPeriode8.csv", csv13) */
+    
 
     spark.stop();
   }

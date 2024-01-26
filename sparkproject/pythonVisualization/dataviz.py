@@ -46,14 +46,14 @@ def plotMap(title, html_filename, csv_filename):
 
 
 
-plotMap('Pourcentage de la population vaccinée par département avec le vaccin 1 (moderna) sur la période covid (2020-12-27 to 2023-07-10)', 'percentageVaccin1ByDep.html', 'percentageVaccin1ByDep.csv')
-plotMap('Pourcentage de la population vaccinée par département avec le vaccin 9 (astrazeneca) sur la période covid (2020-12-27 to 2023-07-10)', 'percentageVaccin9ByDep.html', 'percentageVaccin9ByDep.csv')
+plotMap('Pourcentage de la population vaccinée par département avec le vaccin 1 (pfizer) sur la période covid (2020-12-27 to 2023-07-10)', 'percentageVaccin1ByDep.html', 'percentageVaccin1ByDep.csv')
+plotMap('Pourcentage de la population vaccinée par département avec le vaccin 2 (moderna) sur la période covid (2020-12-27 to 2023-07-10)', 'percentageVaccin2ByDep.html', 'percentageVaccin2ByDep.csv')
 
-plotMap('Pourcentage de la population ayant un schema vaccinal 1 complet par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageSchemaComplet1ByDep.html', 'percentageSchemaComplet1ByDep.csv')
-plotMap('Pourcentage de la population ayant un schema vaccinal 9 complet par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageSchemaComplet9ByDep.html', 'percentageSchemaComplet9ByDep.csv')
+plotMap('Pourcentage de la population ayant un schema vaccinal 1 (pfizer) complet par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageSchemaComplet1ByDep.html', 'percentageSchemaComplet1ByDep.csv')
+plotMap('Pourcentage de la population ayant un schema vaccinal 2 (moderna) complet par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageSchemaComplet2ByDep.html', 'percentageSchemaComplet2ByDep.csv')
 
-plotMap('Pourcentage de la population ayant fait le 1er rappel du vaccin 1 par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageRappel1ByDep.html', 'percentageRappel1ByDep.csv')
-plotMap('Pourcentage de la population ayant fait le 1er rappel du vaccin 9 par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageRappel9ByDep.html', 'percentageRappel9ByDep.csv')
+plotMap('Pourcentage de la population ayant fait le 1er rappel du vaccin 1 (pfizer) par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageRappel1ByDep.html', 'percentageRappel1ByDep.csv')
+plotMap('Pourcentage de la population ayant fait le 1er rappel du vaccin 2 (moderna) par département sur la période covid (2020-12-27 to 2023-07-10)', 'percentageRappel2ByDep.html', 'percentageRappel2ByDep.csv')
 
 #gdf = gpd.read_file("departements-version-simplifiee.geojson")
 #gdf.plot()
